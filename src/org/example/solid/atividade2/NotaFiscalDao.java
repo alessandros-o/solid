@@ -1,7 +1,7 @@
 package org.example.solid.atividade2;
 
-public class NotaFiscalDao {
-    public void persiste(NotaFiscal nf) {
+public class NotaFiscalDao implements AcaoAposGerarNota {
+    public void executa(NotaFiscal nf) {
         System.out.println("salva nf no banco");
     }
 }
