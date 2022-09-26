@@ -1,6 +1,6 @@
-package org.example.solid.notcohesive;
+package org.example.solid.atividade1;
 
-import org.example.solid.notcohesive.enums.Cargo;
+import org.example.solid.atividade1.enums.Cargo;
 
 import java.util.Calendar;
 

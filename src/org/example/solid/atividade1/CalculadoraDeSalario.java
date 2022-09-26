@@ -1,6 +1,4 @@
-package org.example.solid.notcohesive;
-
-import static org.example.solid.notcohesive.enums.Cargo.*;
+package org.example.solid.atividade1;
 
 public class CalculadoraDeSalario {
     public double calcula(Funcionario funcionario) {

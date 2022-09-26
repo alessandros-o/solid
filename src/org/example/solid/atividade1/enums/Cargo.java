@@ -1,8 +1,8 @@
-package org.example.solid.notcohesive.enums;
+package org.example.solid.atividade1.enums;
 
-import org.example.solid.notcohesive.DezOuVintePorCento;
-import org.example.solid.notcohesive.QuinzeOuVinteCincoPorcento;
-import org.example.solid.notcohesive.RegraDeCalculo;
+import org.example.solid.atividade1.DezOuVintePorCento;
+import org.example.solid.atividade1.QuinzeOuVinteCincoPorcento;
+import org.example.solid.atividade1.RegraDeCalculo;
 
 public enum Cargo {
     DESENVOLVEDOR(new DezOuVintePorCento()),

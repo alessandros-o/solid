@@ -1,4 +1,4 @@
-package org.example.solid.notcohesive;
+package org.example.solid.atividade1;
 
 public class QuinzeOuVinteCincoPorcento implements RegraDeCalculo {
     public double calcula(Funcionario funcionario) {
