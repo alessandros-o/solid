@@ -1,18 +1,22 @@
 package org.example.solid.atividade5;
 
-public class ContaDeEstudante extends ContaComum {
+public class ContaDeEstudante {
+
+    private ManipuladorDeSaldo manipulador;
     private int milhas;
 
+    public ContaDeEstudante() {
+        this.manipulador = new ManipuladorDeSaldo();
+    }
+
+
+
     public void deposita(double valor) {
-        super.deposita(valor);
+        manipulador.deposita(valor);
         this.milhas += (int)valor;
     }
 
     public int getMilhas() {
         return milhas;
-    }
-
-    public void rende() {
-        throw new RuntimeException("Não pode render");
     }
 }
