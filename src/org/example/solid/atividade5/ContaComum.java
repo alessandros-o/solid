@@ -1,5 +1,7 @@
 package org.example.solid.atividade5;
 
+import java.util.Scanner;
+
 public class ContaComum {
 
     private ManipuladorDeSaldo manipulador;
@@ -23,6 +25,4 @@ public class ContaComum {
     public double getSaldo() {
         return manipulador.getSaldo();
     }
-
-
 }
